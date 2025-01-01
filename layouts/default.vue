@@ -1,0 +1,14 @@
+<script setup>
+import Header from "@/components/Header.vue";
+</script>
+
+<template>
+  <div>
+    <Header/>
+    <div class="container mx-auto bg-white p-4 xl:px-32">
+      <slot />
+    </div>
+  </div>
+</template>
+
+<style lang="css" scoped></style>
