@@ -37,15 +37,19 @@ const loadMorePosts = () => {
 };
 
 // Intersection Observer to detect when the user has scrolled to the bottom
-const observer = new IntersectionObserver((entries) => {
-  if (entries[0].isIntersecting) {
-    loadMorePosts();
-  }
-});
+let observer: IntersectionObserver | null = null;
+
+if (typeof IntersectionObserver !== 'undefined') {
+  observer = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting) {
+      loadMorePosts();
+    }
+  });
+}
 
 onMounted(() => {
   const sentinel = document.querySelector("#sentinel");
-  if (sentinel) {
+  if (sentinel && observer) {
     observer.observe(sentinel);
   }
 });
