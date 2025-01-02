@@ -25,6 +25,7 @@ export default defineI18nConfig(() => ({
       yourMessage: "Your message",
       yourMessagePlaceholder: "Leave a comment.",
       sendMessage: "Send Message",
+      allRightReserved: "All Rights Reserved.",
     },
     de: {
       blog: "Blog",
@@ -49,6 +50,7 @@ export default defineI18nConfig(() => ({
       yourMessage: "Ihre Nachricht",
       yourMessagePlaceholder: "Kommentar hinterlassen.",
       sendMessage: "Nachricht senden",
+      allRightReserved: "Alle Rechte vorbehalten.",
     },
   },
 }));
