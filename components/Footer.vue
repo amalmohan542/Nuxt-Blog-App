@@ -6,7 +6,7 @@
       <span class="block text-sm text-gray-500 sm:text-center"
         >© 2025
         <a href="https://amalmohank.netlify.app/" class="hover:underline"
-          >Amal Mohan K</a
+          >{{"Amal Mohan K  "}}</a
         >{{ $t("allRightReserved") }}</span
       >
     </div>
