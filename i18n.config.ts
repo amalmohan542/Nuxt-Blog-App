@@ -1,6 +1,6 @@
 export default defineI18nConfig(() => ({
   legacy: false,
-  locale: "en",
+  locale: "de",
   messages: {
     en: {
       blog: "Blog",
@@ -10,6 +10,12 @@ export default defineI18nConfig(() => ({
       searchBlog: "Search Blog...",
       readMore: "Read More",
       goBack: "Go Back",
+      loadingMorePost: "Loading more posts...",
+      sorryNoPostFound: "Sorry, no post found.",
+      author: "Author",
+      publishedOn: "Published on",
+      failedToLoadPost: "Failed to load post.",
+      postFetchError: "An error occurred while fetching the post.",
     },
     de: {
       blog: "Blog",
@@ -19,6 +25,12 @@ export default defineI18nConfig(() => ({
       searchBlog: "Blog durchsuchen...",
       readMore: "Weiterlesen",
       goBack: "Zurück",
+      loadingMorePost: "Lade mehr Beiträge...",
+      sorryNoPostFound: "Entschuldigung, kein Beitrag gefunden.",
+      author: "Autor",
+      publishedOn: "Veröffentlicht am",
+      failedToLoadPost: "Beitrag konnte nicht geladen werden.",
+      postFetchError: "Beim Abrufen des Beitrags ist ein Fehler aufgetreten.",
     },
   },
 }));
