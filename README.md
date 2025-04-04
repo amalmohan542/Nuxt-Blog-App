@@ -1,5 +1,5 @@
 
-# 📝 Nuxt 3 Blog – Dynamic Routing & Client-Side Fetching
+# 📝 Nuxt 3 Blog (To Explore Nuxt 3)
 
 A minimal, responsive blog built with **Nuxt 3** featuring dynamic routes, client-side data fetching, and TailwindCSS styling. Posts are fetched from a mock static JSON file, with individual pages generated using Nuxt’s file-based dynamic routing.
 
