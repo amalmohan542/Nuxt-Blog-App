@@ -32,7 +32,7 @@ Build a blog where users can:
 
 ## 📸 Preview
 
-> [Live Demo (Optional)](https://nuxtblogapp.netlify.app/)
+> [Live Demo](https://nuxtblogapp.netlify.app/)
 
 
 
