@@ -22,6 +22,11 @@ Build a blog where users can:
 - 🧭 Basic navigation bar and footer
 - ⏳ Loading spinner/skeleton UI while data loads
 - 🧩 Posts sourced from a local `posts.json` file (acts as mock API)
+- 🔍 Search bar to filter posts by title or content
+- 🌍 Multi-language support with i18n
+- 📈 Google Analytics integration
+- 📄 Pagination or infinite scroll on homepage
+- 📬 Static contact form with basic validation
 
 ---
 
